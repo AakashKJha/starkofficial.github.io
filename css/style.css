@@ -8,6 +8,11 @@ a{
 s:hover{
 	text-decoration: none;
 }
+.copy{
+	padding: 20px;
+	font-size: 0.65rem;
+	font-weight: lighter;
+}
 li{
 	list-style: none;
 }

@@ -1,36 +1,727 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <header>
-    <title>Aakash portal</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name ="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <meta name="name" content="Aakash's portal">
-   <meta name="robots" content="noindex, nofollow">
-  </header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+   <!-- Custom CSS -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+
+    <title>aakash</title>
+  </head>
   <body>
-    <img src = "images/banner.jpg" width="75%" alt="banner">
-    <h1> Aakash's Portal</h1>
-    <h2> about me</h2>
-     <p> This is a software developer in India.</p>
-     <p> I am a BS of computer science from the Lovely Professional Uiversity.</p>
-     <p> I am currently  a student.</p>
-     <h2>Credentials and portfolio</h2>
-     <p><a href="resume.html"> My Resume</a> |<a href="https://github.com/starkofficial"> My Githu</a></p>
-     <h2> Contact</h2>
-     <p>Email: <a href="mailto:aakashkumar2001jha@gmail.com">aakashkumar2001jha@gmail.com</a></p>
-     </body>
+    	<div class="header" id="topheader">
+    		<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container text-uppercase p-2">
+    				
+  <a class="navbar-brand font-weight-bold text-white" href="#"><h1 class="animate__animated animate__flip animate__slower animate__infinite brand">Aakash's</h1></a>
+  <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <footer>
-    <hr>
-    <code>Copyright (c) 2020 Aakash Kumar</code>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto text-uppercase">
+    	<div class="card">
+      <li class="nav-item active ">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li></div>
+      <div class="card">
+      <li class="nav-item ">
+        <a class="nav-link " href="#aboutme">about</a>
+      </li></div>
+      <div class="card">
+       <li class="nav-item">
+        <a class="nav-link" href="#contactid">contact</a>
+      </li></div>
+      <div class="card">
+       <li class="nav-item">
+        <a class="nav-link" href="#skills">skills</a>
+      </li></div>
+      
+        
+    </ul>
+  </div>
+  </div>
+</nav>
+<section class="header-section">
+	<div class="center-div">
+		
+		<h1 class="font-weight-bold animate__animated animate__backInLeft animate__infinite animate__slower text_change">I Am  <span class="change_content"></span></h1>
+		<p>We create best websites. </p>
+		<div class="header-buttons">
+			<a class="btn" data-toggle="modal" data-target = "#resume_model">Hire Me</a>
+			<a href="#contactid">Contact Me</a>
+		</div>
+	</div>
+	
+</section>
+  </div>
 
-  </footer>
+  <!-- *************Haeder Ends****************--> 
 
+
+<!-- *************MODALS START****************--> 
+  <div class="modal" tabindex="-1" role="dialog" id="resume_model">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">My CV</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <embed src="resume.pdf" type="application/pdf" width="100%" height="500px" ></embed>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sorry</h4>
+        </div>
+        <div class="modal-body">
+
+
+          <p>We Are Running Out Of Storage!<i class="fa-2x fa fa-frown-o" aria-hidden="true"></i></p>
+          <p></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default"><a href="mailto: aakashkumar2001jha@gmail.com"><i class=" fa fa-envelope center gmail" aria-hidden="true"></i></a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" tabindex="-1" role="dialog" id="1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\1.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\2.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="3">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\3.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="4">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\4.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="5">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\5.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="6">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\6.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="7">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\7.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="8">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\8.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="9">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Certificate Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images\9.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- *************MODALS ENDS****************--> 
+
+
+
+<!-- *************# extra Haeder Starts****************--> 
+
+<div class="header-extradiv" id="aboutme">
+	<div class="container">
+		<div class="row">
+			<div class="extra-div col-lg-4 col-md-4 col-sm-12">
+				<a href=""><i class="fa-3x fa fa-user" aria-hidden="true"></i></a>
+				<h3>ABOUT ME</h3>
+				<P>A computer enthusiast with strong passion for self-improvement. I have Strong problem solving skills and bring energy, patience, positivity and cultural values to the team.</P>
+			</div>
+			<div class="extra-div col-lg-4 col-md-4 col-sm-12">
+				<a href=""><i class="fa-3x fa fa-briefcase" aria-hidden="true"></i></a>
+				<h3>WORK EXPERIENCE</h3>
+				<P>I have worked on many projects since 2 years like web-music store, python-GUI ecommerce desktop app, java-applet desktop app, java based text editor, android weather app, recommendation system</P>
+			</div>
+			<div class=" extra-div col-lg-4 col-md-4 col-sm-12">
+				<a href=""><i class="fa-3x fa fa-graduation-cap" aria-hidden="true"></i></a>
+				<h3>EDUCATION</h3>
+				<P>Lovely Professional University &nbsp;&nbsp;B.Tech  CSE  |  2018</P>
+				<P>Bihar Board  &nbsp; &nbsp; XII     |    2017 </P>
+				<P>Bihar Board  &nbsp; &nbsp; X     |      2015 </P>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- *************extra Haeder Ends****************--> 
+<!-- *************Offer Section Starts****************-->
+<section class="serviceffers" id="servicediv">
+	<div class="container hrading text-center">
+		<h2 class="text-center font-weight-bold">SKILLS I HAVE TO SHOW
+		</h2>
+		<p>In everyday life, the development of life skills always helps to: Find new ways of thinking and problem solving. Recognise the impact of their actions and teaches them to take responsibility for what we do</p>
+	</div>
+	<div class="container">
+	   <div class="row">
+	<div class="col-lg-6  col-md-12 col-10 offset-1 offset-lg-0 ">
+		<div class="names my-3">
+			<h1>JAVA</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+         </div></div>
+
+
+		<div class="names my-3">
+			<h1>PYTHON</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+         </div>
+		</div>	
+		<div class="names my-3">
+			<h1>C++</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+         </div>
+
+		</div>	
+		<div class="names my-3">
+			<h1>C#</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+         </div>
+
+		</div>	
+		<div class="names my-3">
+			<h1>MACHINE LEARNING</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+         </div>
+		</div>
+	</div>
+
+	<div class="col-lg-6  col-md-12 col-10 offset-1 offset-lg-0 ">
+		<div class="names my-3">
+			<h1>HTML5</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+         </div></div>
+
+
+		<div class="names my-3">
+			<h1>CSS3</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+         </div>
+		</div>	
+		<div class="names my-3">
+			<h1>BOOTSTRAP4</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+         </div>
+
+		</div>	
+		<div class="names my-3">
+			<h1>JAVASCRIPT</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">70%</div>
+         </div>
+
+		</div>	
+		<div class="names my-3">
+			<h1>REACT</h1>
+			<div class="progress w-75">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+         </div>
+		</div>
+	</div>
+
+	
+</section>
+
+
+<!-- *************Offer Section Ends****************-->
+<!-- *************Projects done Start****************-->
+<section class="project-work">
+	<div class="container heading text-center">
+		<p class="text-center font-weight-bold">More Than 20 Project Created</p>
+	</div>
+	<div class="container d-flex justify-content-around align-items-center text-center">
+		<div>
+		<h1 class="count">15</h1>
+		<p>Website</p>
+	</div>
+	<div>
+		<h1 class="count">6</h1>
+		<p>Desktop Based</p>
+	</div>
+
+<div>
+		<h1 class="count">4</h1>
+		<p>Mobile Based</p>
+	</div>
+
+<div>
+		<h1 class="count">7</h1>
+		<p>Working on</p>
+	</div>
+</div>
+
+	
+</section>
+<!-- *************Projects done end****************-->
+
+<!-- *************pricing Start****************-->
+<section class="pricing" id="pricingdiv">
+	<div class="container heading text-center">
+		<h1 class="text-center font-weight-bold">My Best Projects</h1>
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-lg-4 col-12">
+				<div class="card text-center">
+					<div class="card-header">AI</div>
+					<div class="card-body">
+						<li><span class="money">20</span>/Days</li>
+						<li>Recommendation System</li>
+						<li>Paython GUI Based</li>
+						<li>Scikit-learn Library</li>
+						<li>Cosine Similarity</li>
+						<li>countVecterizer Technique</li>
+					</div>
+					<div class="card-footer">
+						<a href="https://github.com/starkofficial">Code Please</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-12 card-second">
+				<div class="card text-center">
+					<div class="card-header">JAVA</div>
+					<div class="card-body">
+						<li><span class="money">50</span>/Days</li>
+						<li>TextNoteMaster APP</li>
+						<li>Flesch Index of understanding</li>
+						<li>Generate text based on previous</li>
+						<li>Spelling Suggestions</li>
+						<li>Auto Complete</li>
+					</div>
+					<div class="card-footer">
+						<a href="https://github.com/starkofficial">Code Please</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-12">
+				<div class="card text-center">
+					<div class="card-header">JAVA</div>
+					<div class="card-body">
+						<li><span class="money">60</span>/Days</li>
+						<li>Shortest Path finder</li>
+						<li>Using Real World Map Data</li>
+						<li>Path Using BFS</li>
+						<li>Path Using Dijkstra</li>
+						<li>Path Using A*</li>
+					</div>
+					<div class="card-footer">
+						<a href="https://github.com/starkofficial">Code Please</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+</section>
+
+<!-- *************pricing Start ****************-->
+
+<!-- *************Feed back starts****************-->
+<section class="happyclients mt-50 " id="skills">
+	<div class="container heading text-center">
+		<h1 class="text-center font-weight-bold">Certificate Or Cetrification </h1>
+		<p class="text-capitalize pt-1">Certificate Or Cetrification can be varified by the authentication method</p>
+	</div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner container">
+    <div class="carousel-item active">
+     <div class="row">
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#1"><img src="images/1.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certification is awarded by google after completing and passing the exam of Digital Marketing. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#2"><img src="images/2.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by <strong>IBM</strong> after Completing the course Applied AI with DeepLearning. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#3"><img src="images/3.jpg" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by Microsoft after Completing the Bootcamp by MSP.</p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<<a class="btn" data-toggle="modal" data-target = "#4"><img src="images/4.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by Microsoft after Completing the Asia Virtual Experience Program. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#5"><img src="images/5.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by UCSanDiego after Completing the course Data Structure And Performence. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#6"><img src="images/6.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by UCSanDiego after Completing the course Object Oriented Programming in Java. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#7"> <img src="images/7.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by  Coursera Project Network after Completing the project using figma. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#8"><img src="images/8.png" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by Udemy after Completing the course AWS Concepts. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-4 col-4">
+     		<div class="box">
+     			<a class="btn" data-toggle="modal" data-target = "#9"><img src="images/9.jpg" class="img-fluidi img-thumbnail"></a>
+     			<p class="m-4">This certificate is awarded by Hindustan Dainik after writing an article on Pollution Under Hindustaan Pratibha Samman Program. </p>
+     			<h1>Aakash Kumar</h1>
+     			<h2>Computer-enthusiast, Developer</h2>
+
+     		</div>
+     	</div>
+     </div>
+    </div>
+
+ 
+</div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+</section>
+
+
+<!-- *************Feed back end****************-->
+
+<!-- *************Contact Us  Start****************-->
+<section class="contactus" id="contactid">
+	<div class="container heading text-center">
+		<h1 class="text-center font-weight-bold">CONTACT US</h1>
+		<p class="text-capitalize pt-1">We are here to help and answer any question you might have. we look forward to hearing from you 👀</p>
+		<small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+	<form action="/action_page.php">
+
+  <div class="form-group">
+    <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Please Enter your name" autocomplete="off" >
+  </div>
+
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please Enter email" autocomplete="off" >
+  
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Please Enter Subject" autocomplete="off">
+  
+  </div>
+  
+
+  <div class="form-group">
+  	 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message Please 🙏" autocomplete="off"></textarea>
+ 
+  </div>
+  <div class="d-flex justify-content-center form-button">
+  	 <a data-toggle="modal" data-target = "#myModal"><button type="button" class="btn btn-primary" >Submit</button></a>
+  </div>
+</form>
+			</div>
+			
+		</div>
+		
+	</div>
+</section>
+
+
+<!-- *************Contact Us Ends ****************-->
+
+<!-- *************Footer start ****************-->
+
+
+<footer class="footersection mt-5" id="footerfiv">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-lg-2 offset-lg-1">
+					<div class="card">
+				<a href="https://www.facebook.com/Aakashs-portal-105057377923576/?modal=admin_todo_tour"><i class="fa-3x fa fa-facebook center" aria-hidden="true"></i></a>
+			</div></div>
+				
+	
+			
+
+			<div class="col-lg-2 offset-lg-1">
+				<div class="card">
+				<a href="https://github.com/starkofficial"><i class="fa-3x fa fa-github center" aria-hidden="true"></i></a>
+			</div></div>
+			
+
+			<div class="col-lg-2 offset-lg-1">
+				<div class="card">
+				<a href="https://www.linkedin.com/in/coderaakash/"><i class="fa-3x fa fa-linkedin center" aria-hidden="true"></i></a>
+		</div></div>
+			
+
+			<div class="col-lg-2 offset-lg-1">
+				<div class="card">
+				<a href="mailto: aakashkumar2001jha@gmail.com"><i class="fa-3x fa fa-envelope center" aria-hidden="true"></i></a>
+			</div></div>
+			
+		</div>
+		
+	</div>
+	
+	
+</footer>
+<!-- *************Footer  Ends ****************-->
+
+
+
+    <!-- Optional JavaScript -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+
+<script>
+	$('.count').counterUp({
+		delay:10,
+		time:1000
+	});
+</script>
+  </body>
 </html>

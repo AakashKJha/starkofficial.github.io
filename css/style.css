@@ -8,11 +8,6 @@ a{
 s:hover{
 	text-decoration: none;
 }
-.copy{
-	padding: 20px;
-	font-size: 0.65rem;
-	font-weight: lighter;
-}
 li{
 	list-style: none;
 }
@@ -188,8 +183,8 @@ color: #fff;
 
 /************pricing CSS start****************/
 .pricing{
-	width: 100%;
-	height: 100vh;
+	
+	
 	padding: 5px;
 	position: relative;
 }
@@ -264,8 +259,7 @@ color: #fff;
 }
 /************pricing CSS end****************/
 .happyclients{
-	width: 100%;
-	height: 100vh;
+
 	padding: 80px 0;
 }
 .box{
@@ -368,6 +362,11 @@ form:hover .form-button button{
 }
 ::placeholder{
 	font-size: 0.65rem;
+}
+.copy{
+	padding: 20px;
+	font-size: 0.65rem;
+	font-weight: lighter;
 }
 
 /************Feedback css end****************/
